@@ -15,17 +15,18 @@ Version 1 of the solution is proposed here.
 2. [Introduction](#1-introduction)
 3. [System Architecture](#2-system-architecture)
 4. [Key Features](#3-key-features)
-5. [Technical Implementation](#4-technical-implementation)
-6. [Economic Considerations](#5-economic-considerations)
-7. [Challenges and Mitigations](#6-challenges-and-mitigations)
-8. [Roadmap](#7-roadmap)
-9. [Conclusion](#8-conclusion)
+5. [Blockchain Foundation: Bitcoin vs. Cardano](#4-blockchain-foundation-bitcoin-vs-cardano)
+6. [Technical Implementation](#5-technical-implementation)
+7. [Economic Considerations](#6-economic-considerations)
+8. [Challenges and Mitigations](#7-challenges-and-mitigations)
+9. [Roadmap](#8-roadmap)
+10. [Conclusion](#9-conclusion)
 
 ---
 
 ## Abstract
 
-This whitepaper introduces Internet 2.0, a revolutionary decentralized network designed to create a more equitable and human-centric internet infrastructure. By forking the Bitcoin codebase and adapting it to a Proof of Stake (PoS) consensus mechanism, Internet 2.0 aims to provide a secure, efficient, and inclusive global network. Key features include human verification, node-based service hosting, and a novel economic model incorporating fixed transaction and service taxes.
+This whitepaper introduces Internet 2.0, a revolutionary decentralized network designed to create a more equitable and human-centric internet infrastructure. By forking the Cardano blockchain and adapting it to our unique requirements, Internet 2.0 aims to provide a secure, efficient, and inclusive global network. Key features include human verification, node-based service hosting, and a novel economic model incorporating fixed transaction and service taxes.
 
 ## 1. Introduction
 
@@ -49,34 +50,36 @@ The internet has become an integral part of modern society, yet it faces challen
 
 ### 2.1 Network Foundation
 
-Internet 2.0 is built upon a fork of the Bitcoin codebase, chosen for its robust and battle-tested nature. This foundation provides a solid starting point for implementing our unique features.
+Internet 2.0 is built upon a fork of the Cardano blockchain, chosen for its robust features and alignment with our project goals.
 
-#### 2.1.1 Bitcoin Codebase Advantages
+#### 2.1.1 Cardano Foundation Advantages
 
-- Proven security model
-- Extensive peer review and real-world stress testing
-- Large developer community and tooling ecosystem
+- Built-in Proof of Stake consensus (Ouroboros)
+- Advanced smart contract capabilities
+- Designed for scalability and interoperability
+- Academic approach with peer-reviewed research
 
 #### 2.1.2 Key Modifications
 
-- Implementation of smart contract functionality
-- Adaptation of the block structure to support new features
-- Integration of advanced cryptographic primitives for privacy and verification
+- Implementation of human verification layer
+- Adaptation of the reward system for our unique salary structure
+- Development of a service hosting framework
+- Integration of our dual-tax system
 
 ### 2.2 Consensus Mechanism
 
-The original Proof of Work (PoW) consensus is replaced with a Proof of Stake (PoS) mechanism. This transition aims to reduce energy consumption and increase network participation.
+Internet 2.0 leverages Cardano's Ouroboros Proof of Stake protocol, with modifications to suit our specific needs.
 
 #### 2.2.1 Proof of Stake Implementation
 
-- Adaptation of Ethereum 2.0's Casper FFG protocol for finality
-- Dynamic validator selection based on stake and reputation
-- Stake slashing mechanisms for misbehaving nodes
+- Adaptation of Ouroboros protocol for Internet 2.0 requirements
+- Integration with human verification for validator selection
+- Custom stake slashing mechanisms for misbehaving nodes
 
 #### 2.2.2 Energy Efficiency
 
-- Comparative analysis of energy consumption: PoW vs. PoS
-- Projected environmental impact reduction
+- Inherited benefits of Cardano's energy-efficient design
+- Further optimizations for Internet 2.0 specific operations
 
 ### 2.3 Node Structure
 
@@ -166,25 +169,87 @@ A dual-tax system is implemented to sustain the network and incentivize particip
 - Mechanisms to prevent tax evasion
 - Incentives for competitive pricing
 
-## 4. Technical Implementation
+## 4. Blockchain Foundation: Bitcoin vs. Cardano
+
+### 4.1 Comparison of Bitcoin and Cardano
+
+#### 4.1.1 Bitcoin
+
+Pros:
+- Longest-running and most battle-tested blockchain
+- High security and resistance to attacks
+- Large and active developer community
+- Strong brand recognition
+
+Cons:
+- Limited smart contract functionality
+- Energy-intensive Proof of Work consensus
+- Scalability challenges
+- Less flexible for implementing complex features
+
+#### 4.1.2 Cardano
+
+Pros:
+- Built-in Proof of Stake consensus (Ouroboros)
+- Advanced smart contract capabilities
+- Designed for scalability and interoperability
+- Academic approach with peer-reviewed research
+- Native multi-asset support
+
+Cons:
+- Younger platform with less real-world stress testing
+- Smaller developer community compared to Bitcoin
+- More complex architecture
+
+### 4.2 Decision to Fork Cardano
+
+After careful consideration, we have decided to fork Cardano as the foundation for Internet 2.0. The key factors influencing this decision are:
+
+1. **Proof of Stake Alignment**: Cardano's Ouroboros Proof of Stake protocol aligns closely with our goals for energy efficiency and democratic participation.
+
+2. **Smart Contract Capabilities**: Cardano's robust smart contract platform provides the flexibility we need to implement complex features.
+
+3. **Scalability and Interoperability**: Cardano's design principles are crucial for our vision of a global, decentralized internet infrastructure.
+
+4. **Scientific Approach**: The peer-reviewed, academic approach of Cardano provides a solid foundation for building a secure and well-thought-out system.
+
+5. **Native Multi-Asset Support**: This feature aligns well with our plans for a diverse ecosystem of services and applications on Internet 2.0.
+
+### 4.3 Modifications to Cardano
+
+Several modifications will be necessary to realize the full vision of Internet 2.0:
+
+1. **Human Verification Layer**: Implementing our unique human verification system.
+2. **Custom Reward Mechanism**: Adapting the reward system to incorporate our date-of-birth based salary structure.
+3. **Service Hosting Framework**: Developing a framework for decentralized service hosting.
+4. **Tax System Implementation**: Implementing our dual-tax system within the network's economic model.
+5. **Governance Adaptations**: Modifying Cardano's governance model to fit the specific needs and goals of Internet 2.0.
+
+### 4.4 Challenges and Mitigations
+
+1. **Complexity**: We will invest in comprehensive documentation and developer tools to ease the learning curve.
+2. **Nascent Ecosystem**: We plan to actively foster community growth and provide incentives for developers.
+3. **Ongoing Development**: We'll carefully manage our fork to potentially incorporate beneficial upstream changes while maintaining our unique features.
+
+## 5. Technical Implementation
 
 (This section would be expanded with detailed technical specifications)
 
-## 5. Economic Considerations
+## 6. Economic Considerations
 
 (This section would be expanded with detailed economic models and simulations)
 
-## 6. Challenges and Mitigations
+## 7. Challenges and Mitigations
 
 (This section would provide an in-depth analysis of potential challenges and proposed solutions)
 
-## 7. Roadmap
+## 8. Roadmap
 
 (This section would offer a detailed timeline with specific milestones and deliverables)
 
-## 8. Conclusion
+## 9. Conclusion
 
-Internet 2.0 represents a bold vision for a decentralized, human-centric internet infrastructure. By leveraging blockchain technology and innovative economic models, we aim to create a more equitable, secure, and efficient global network. While challenges remain, the potential benefits of this system warrant further development and exploration.
+Internet 2.0 represents a bold vision for a decentralized, human-centric internet infrastructure. By leveraging Cardano's blockchain technology and implementing innovative economic models, we aim to create a more equitable, secure, and efficient global network. While challenges remain, the potential benefits of this system warrant further development and exploration.
 
 This whitepaper serves as a foundation for discussion and refinement of the Internet 2.0 concept. We invite feedback, collaboration, and critical analysis from the global community to help shape the future of decentralized internet infrastructure.
 
