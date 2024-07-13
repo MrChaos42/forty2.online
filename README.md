@@ -26,7 +26,7 @@ Version 1 of the solution is proposed here.
 
 ## Abstract
 
-This whitepaper introduces Internet 2.0, a revolutionary decentralized network designed to create a more equitable and human-centric internet infrastructure. By forking the Cardano blockchain and adapting it to our unique requirements, Internet 2.0 aims to provide a secure, efficient, and inclusive global network. Key features include human verification, node-based service hosting, and a novel economic model incorporating fixed transaction and service taxes.
+This whitepaper introduces Forty2.online; an Internet 2.0 initiative, a revolutionary decentralized network designed to create a more equitable and human-centric internet infrastructure. By forking the Cardano blockchain and adapting it to our unique requirements, Internet 2.0 aims to provide a secure, efficient, and inclusive global network. Key features include human verification, node-based service hosting, and a novel economic model incorporating fixed transaction and service taxes.
 
 ## 1. Introduction
 
